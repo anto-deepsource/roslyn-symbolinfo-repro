@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "roslyn-dotnet-8", "roslyn-dotnet-8\roslyn-dotnet-8.csproj", "{BFFC0467-4148-4958-AEE3-BD2FC6E7E06C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "roslyn-dotnet-7", "roslyn-dotnet-7\roslyn-dotnet-7.csproj", "{388A0BC9-7267-4298-A89E-40881AF9AE80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFFC0467-4148-4958-AEE3-BD2FC6E7E06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFFC0467-4148-4958-AEE3-BD2FC6E7E06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFFC0467-4148-4958-AEE3-BD2FC6E7E06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFFC0467-4148-4958-AEE3-BD2FC6E7E06C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388A0BC9-7267-4298-A89E-40881AF9AE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388A0BC9-7267-4298-A89E-40881AF9AE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388A0BC9-7267-4298-A89E-40881AF9AE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388A0BC9-7267-4298-A89E-40881AF9AE80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

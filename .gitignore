@@ -1,0 +1,21 @@
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+*.svclog
+.vs/
+.vscode/settings.json
+.idea/
+.DS_STORE
+
+# Build results
+[Aa]rtifacts/
+[Dd]ebug/
+[Rr]elease/
+[Bb]inaries/
+x64/
+[Bb]in/
+[Oo]bj/
+.dotnet/
+.tools/
+.packages/
