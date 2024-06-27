@@ -13,15 +13,8 @@ internal class Program
     var project = await workspace.OpenProjectAsync("test-project/test-project.csproj");
     var compilation = await project.GetCompilationAsync();
 
-    Type[] metadataReferences = {
-      typeof(Thread)
-    };
-
-    foreach (var type in metadataReferences)
-    {
-      var metadataReference = MetadataReference.CreateFromFile(type.Assembly.Location);
-      compilation = compilation?.AddReferences(metadataReference);
-    }
+    var metadataReference = MetadataReference.CreateFromFile(typeof(Thread).Assembly.Location);
+    compilation = compilation?.AddReferences(metadataReference);
 
     foreach (var doc in project.Documents)
     {
